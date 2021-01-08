@@ -1,5 +1,17 @@
-.container {
+body {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.cartilla{
+  width: 40%;
+}
+
+.redes_sociales li{
+  width: 25%;
+}
+
+.menuNav__elemento {
+  width: 20%;
 }

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -6,10 +8,10 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Yusei Magic", sans-serif;
 }
 
 .banner {
-  border: 1px solid black;
   width: 100%;
   height: 90vh;
   margin-top: 1.2rem;
@@ -42,7 +44,7 @@ html {
 }
 
 .menuNav__elemento:hover {
-  background-color:grey;
+  background-color: orange;
 }
 
 .menuNav__link {
@@ -52,8 +54,7 @@ html {
   font-size: 2rem;
 }
 
-.container{
-  border: 1px solid black;
+.container {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1.2rem;
@@ -61,32 +62,30 @@ html {
   justify-content: center;
 }
 
-footer{
-  border: 1px solid black;
+footer {
   min-height: 10vh;
 }
-.redes_sociales ul{
+.redes_sociales ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
-
 }
-.redes_sociales li{
+.redes_sociales li {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
   width: 50%;
 }
-.youtube{
+.youtube {
   width: 12rem;
 }
-.facebook{
+.facebook {
   width: 6rem;
 }
-.instagram{
+.instagram {
   width: 6rem;
 }
-.whatsapp{
+.whatsapp {
   width: 6.5rem;
 }

@@ -4,6 +4,10 @@ body {
   margin-right: auto;
 }
 
+.banner__logo img {
+  width: 200px;
+}
+
 .cartilla{
   width: 40%;
 }

@@ -4,14 +4,24 @@ body {
   margin-right: auto;
 }
 
-.cartilla{
+.cartilla {
   width: 40%;
 }
 
-.redes_sociales li{
+.redes_sociales li {
   width: 25%;
 }
 
 .menuNav__elemento {
   width: 20%;
+}
+
+.container__servicio--texto1 img,
+.container__servicio--texto2 img {
+  width: 30%;
+}
+
+.container__servicio--texto1 div,
+.container__servicio--texto2 div {
+  width: 45%;
 }

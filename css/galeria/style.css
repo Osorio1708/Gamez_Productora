@@ -6,6 +6,35 @@
   justify-content: center;
 }
 
+.visualContainer {
+  width: 75%;
+}
+
+.audiovisualContainer {
+  width: 75%;
+}
+
+.visualContainer__fotos {
+  border: 1px solid grey;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  min-height: 40vh;
+}
+
+.audiovisualContainer__video {
+  border: 1px solid grey;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  min-height: 40vh;
+}
+
+.visualContainer h1,
+.audiovisualContainer h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 15px;
+}
+
 .cartilla {
   display: flex;
   flex-wrap: wrap;

@@ -1,10 +1,39 @@
-
 .container {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1.2rem;
   height: 100%;
   justify-content: center;
+}
+
+.container__txtCont {
+  width: 100%;
+  margin: 30px;
+}
+
+.container__txtCont p {
+  font-size: 2rem;
+}
+
+.container__txtCont h1 {
+  text-align: center;
+  margin: 10px;
+  font-size: 3rem;
+}
+
+.container__txtCont table {
+  padding: 30px;
+  width: 90%;
+}
+
+.container__txtCont td {
+  width: 50%;
+}
+
+.container__mapa {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 footer {
